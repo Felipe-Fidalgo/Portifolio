@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Route, Routes } from "react-router-dom";
 import { motion } from "framer-motion";
 import Container from "@mui/material/Container";
 import './Portifolio.module.scss';

@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import {Route, Routes} from "react-router-dom";
 import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
 import Home from "./Home";
@@ -25,12 +24,18 @@ export default function BaseLayout() {
                 <Navbar darkMode={darkMode} handleClick={handleClick}/>
             </Grid>
             <Grid marginBottom={50} item flexGrow={2}>
-               <Routes>
-                  <Route exact path={'/'} element={<Home darkMode={darkMode}/>}/>
-                  <Route exact path={'/portifolio'} element={<Portifolio/>}/>
-                  <Route exact path={'/sobre'} element={<Sobre/>}/>
-                  <Route exact path={'/contato'} element={<Contato darkMode={darkMode}/>}/>
-               </Routes>
+               <div id="inicio">
+                  <Home darkMode={darkMode}/>
+               </div>
+               <div id="portifolio">
+                  <Portifolio/>
+               </div>
+               <div id="sobre">
+                  <Sobre/>
+               </div>
+               <div id="contato">
+                  <Contato darkMode={darkMode}/>
+               </div>
             </Grid>
             {/*<Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}

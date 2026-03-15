@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import { Route, Routes } from "react-router-dom";
 import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
-import { Link } from "react-router-dom";
 import "./home.mudule.scss";
 
 import perfil from "../../img/perfil3-removebg-preview.png";
@@ -73,12 +71,12 @@ export default function Home({ darkMode }) {
                   Meu nome é <strong>Felipe Fidalgo</strong>
                 </h2>
                 <p>Sou desenvolvedor full-stack e desenvolvido para servir a tecnologia</p>
-                <Link to={'/sobre'}>
+                <a href="#sobre">
                   <button>Conheça-me Melhor 💭</button>
-                </Link>
-                <Link to={'/contato'}>
+                </a>
+                <a href="#contato">
                   <button>Fale Comingo🤓</button>
-                </Link>
+                </a>
               </motion.div>
             </motion.div>
             <div className="social-box">

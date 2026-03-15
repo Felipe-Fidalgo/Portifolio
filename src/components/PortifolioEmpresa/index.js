@@ -14,7 +14,6 @@ import Plataforma from '../../img/portfolio/Plataforma.png'
 import cirurgico from '../../img/portfolio/agendamentocirurgico.png'
 import treinamento from '../../img/portfolio/agendamentotreinamento.png'
 import crm from '../../img/portfolio/crm.png'
-import { redirect } from 'react-router-dom';
 
 export default function ResponsiveDialog() {
   const [open, setOpen] = React.useState(false);
