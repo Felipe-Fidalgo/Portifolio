@@ -1,0 +1,247 @@
+
+> portifolio@0.1.0 start
+> react-scripts start
+
+Browserslist: browsers data (caniuse-lite) is 14 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+(node:3828) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:3828) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+[0;33mOne of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it [1mmay break at any time[0;33m.
+
+babel-preset-react-app is part of the create-react-app project, [1mwhich
+is not maintianed anymore[0;33m. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.[0m
+
+Compiled with warnings.
+
+[eslint]
+src/components/BaseLayout.js
+  Line 11:10:  'HeadphonesSharp' is defined but never used  no-unused-vars
+
+src/components/Contato/index.js
+  Line 7:10:   'ThemeProvider' is defined but never used       no-unused-vars
+  Line 7:25:   'createTheme' is defined but never used         no-unused-vars
+  Line 7:38:   'styled' is defined but never used              no-unused-vars
+  Line 11:8:   'axios' is defined but never used               no-unused-vars
+  Line 16:10:  'useEffect' is defined but never used           no-unused-vars
+  Line 36:10:  'todo' is assigned a value but never used       no-unused-vars
+  Line 36:16:  'setTodo' is assigned a value but never used    no-unused-vars
+  Line 37:9:   'fetchPost' is assigned a value but never used  no-unused-vars
+  Line 65:14:  Expected '!==' and instead saw '!='             eqeqeq
+  Line 65:31:  Expected '!==' and instead saw '!='             eqeqeq
+  Line 65:44:  Expected '!==' and instead saw '!='             eqeqeq
+
+src/components/Dialog/index.js
+  Line 14:8:   'cirurgico' is defined but never used                                                                      no-unused-vars
+  Line 15:10:  'redirect' is defined but never used                                                                       no-unused-vars
+  Line 39:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 50:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 63:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/Home/index.js
+  Line 2:10:    'Route' is defined but never used                                                                          no-unused-vars
+  Line 2:17:    'Routes' is defined but never used                                                                         no-unused-vars
+  Line 4:8:     'Box' is defined but never used                                                                            no-unused-vars
+  Line 19:7:    'variants' is assigned a value but never used                                                              no-unused-vars
+  Line 60:15:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 101:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 102:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 103:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 104:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 105:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 106:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 107:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 108:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 109:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/Portifolio/index.js
+  Line 2:10:   'Route' is defined but never used    no-unused-vars
+  Line 2:17:   'Routes' is defined but never used   no-unused-vars
+  Line 37:20:  Expected '===' and instead saw '=='  eqeqeq
+
+src/components/PortifolioEmpresa/index.js
+  Line 11:8:   'snake' is defined but never used                                                                          no-unused-vars
+  Line 12:8:   'chat' is defined but never used                                                                           no-unused-vars
+  Line 13:8:   'Plataforma' is defined but never used                                                                     no-unused-vars
+  Line 17:10:  'redirect' is defined but never used                                                                       no-unused-vars
+  Line 20:10:  'open' is assigned a value but never used                                                                  no-unused-vars
+  Line 21:10:  'chatbool' is assigned a value but never used                                                              no-unused-vars
+  Line 21:20:  'setChat' is assigned a value but never used                                                               no-unused-vars
+  Line 22:10:  'plataforma' is assigned a value but never used                                                            no-unused-vars
+  Line 22:22:  'setPlataforma' is assigned a value but never used                                                         no-unused-vars
+  Line 30:9:   'handleClickOpen' is assigned a value but never used                                                       no-unused-vars
+  Line 34:9:   'handleClose' is assigned a value but never used                                                           no-unused-vars
+  Line 44:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 58:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 72:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/Sobre/index.js
+  Line 58:37:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                              eqeqeq
+  Line 79:26:  The ref value 'mountRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'mountRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/App.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w>
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w>
+<w> src/App.module.scss 2:9  root stylesheet
+<w>
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/BaseLayout.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w>
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w>
+<w> src/components/BaseLayout.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Navbar.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w>
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w>
+<w> src/components/Navbar.module.scss 1:9  root stylesheet
+<w>
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Portifolio/Portifolio.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Contato/Contato.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+<w> Deprecation Sass @import rules are deprecated and will be removed in Dart Sass 3.0.0.
+<w>
+<w> More info and automated migrator: https://sass-lang.com/d/import
+<w>
+<w> src/components/Contato/Contato.module.scss 2:9  root stylesheet
+<w>
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/components/Home/home.mudule.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[8].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[8].use[4]!./src/components/Sobre/sobre.module.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/components/PortifolioEmpresa/style.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+
+LOG from ./node_modules/sass-loader/dist/cjs.js sass-loader ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[1].oneOf[7].use[3]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[7].use[4]!./src/components/Dialog/style.scss
+<w> Deprecation The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+<w>
+<w> More info: https://sass-lang.com/d/legacy-js-api
+<w>
+<w> null
+
+WARNING in [eslint]
+src/components/BaseLayout.js
+  Line 11:10:  'HeadphonesSharp' is defined but never used  no-unused-vars
+
+src/components/Contato/index.js
+  Line 7:10:   'ThemeProvider' is defined but never used       no-unused-vars
+  Line 7:25:   'createTheme' is defined but never used         no-unused-vars
+  Line 7:38:   'styled' is defined but never used              no-unused-vars
+  Line 11:8:   'axios' is defined but never used               no-unused-vars
+  Line 16:10:  'useEffect' is defined but never used           no-unused-vars
+  Line 36:10:  'todo' is assigned a value but never used       no-unused-vars
+  Line 36:16:  'setTodo' is assigned a value but never used    no-unused-vars
+  Line 37:9:   'fetchPost' is assigned a value but never used  no-unused-vars
+  Line 65:14:  Expected '!==' and instead saw '!='             eqeqeq
+  Line 65:31:  Expected '!==' and instead saw '!='             eqeqeq
+  Line 65:44:  Expected '!==' and instead saw '!='             eqeqeq
+
+src/components/Dialog/index.js
+  Line 14:8:   'cirurgico' is defined but never used                                                                      no-unused-vars
+  Line 15:10:  'redirect' is defined but never used                                                                       no-unused-vars
+  Line 39:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 50:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 63:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/Home/index.js
+  Line 2:10:    'Route' is defined but never used                                                                          no-unused-vars
+  Line 2:17:    'Routes' is defined but never used                                                                         no-unused-vars
+  Line 4:8:     'Box' is defined but never used                                                                            no-unused-vars
+  Line 19:7:    'variants' is assigned a value but never used                                                              no-unused-vars
+  Line 60:15:   img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 101:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 102:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 103:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 104:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 105:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 106:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 107:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 108:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 109:37:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/Portifolio/index.js
+  Line 2:10:   'Route' is defined but never used    no-unused-vars
+  Line 2:17:   'Routes' is defined but never used   no-unused-vars
+  Line 37:20:  Expected '===' and instead saw '=='  eqeqeq
+
+src/components/PortifolioEmpresa/index.js
+  Line 11:8:   'snake' is defined but never used                                                                          no-unused-vars
+  Line 12:8:   'chat' is defined but never used                                                                           no-unused-vars
+  Line 13:8:   'Plataforma' is defined but never used                                                                     no-unused-vars
+  Line 17:10:  'redirect' is defined but never used                                                                       no-unused-vars
+  Line 20:10:  'open' is assigned a value but never used                                                                  no-unused-vars
+  Line 21:10:  'chatbool' is assigned a value but never used                                                              no-unused-vars
+  Line 21:20:  'setChat' is assigned a value but never used                                                               no-unused-vars
+  Line 22:10:  'plataforma' is assigned a value but never used                                                            no-unused-vars
+  Line 22:22:  'setPlataforma' is assigned a value but never used                                                         no-unused-vars
+  Line 30:9:   'handleClickOpen' is assigned a value but never used                                                       no-unused-vars
+  Line 34:9:   'handleClose' is assigned a value but never used                                                           no-unused-vars
+  Line 44:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 58:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+  Line 72:15:  img elements must have an alt prop, either with meaningful text, or an empty string for decorative images  jsx-a11y/alt-text
+
+src/components/Sobre/index.js
+  Line 58:37:  Expected '!==' and instead saw '!='                                                                                                                                                                                                                              eqeqeq
+  Line 79:26:  The ref value 'mountRef.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'mountRef.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+webpack compiled with 1 warning
