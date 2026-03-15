@@ -12,7 +12,6 @@ import snake from '../../img/portfolio/snake.png'
 import chat from '../../img/portfolio/chat.png'
 import Plataforma from '../../img/portfolio/Plataforma.png'
 import cirurgico from '../../img/portfolio/agendamentocirurgico.png'
-import { redirect } from 'react-router-dom';
 
 export default function ResponsiveDialog() {
   const [open, setOpen] = React.useState(false);
