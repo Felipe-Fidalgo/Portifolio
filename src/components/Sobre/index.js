@@ -1,109 +1,16 @@
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 import { motion } from "framer-motion";
 import Container from "@mui/material/Container";
-import * as THREE from 'three';
-import { GLTFLoader } from 'three-stdlib';
 import './sobre.module.scss';
 
 const Green = ({children}) => {
     return <span style={{color:'#32a852'}}>{children}</span>
 }
 
-const ThreeScene = () => {
-    const mountRef = useRef(null);
-    const modelRef = useRef(null);
-
-    useEffect(() => {
-        const width = window.innerWidth;
-        const height = window.innerHeight;
-
-        const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(60, width / height, 0.2, 10);
-        camera.position.z = 1;
-        camera.position.y = 1.5;
-
-        const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-        renderer.setSize(width, height);
-        renderer.setClearColor(0x000000, 0); // Fundo transparente
-
-        if (mountRef.current) {
-            mountRef.current.appendChild(renderer.domElement);
-        }
-        // Adicionando luz direcional à cena
-        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.9); // Cor branca, intensidade 0.5
-        directionalLight.position.set(3, 5, 4); // Posição da luz
-        scene.add(directionalLight);
-
-        // Carregar o modelo GLTF
-        const loader = new GLTFLoader();
-        const modelPath = `${process.env.PUBLIC_URL}/3D/terra/scene.gltf`; // Caminho corrigido
-        console.log(`Tentando carregar o modelo GLTF a partir de: ${modelPath}`);
-
-        loader.load(modelPath, (gltf) => {
-            const model = gltf.scene;
-            model.scale.set(0.5, 0.5, 0.5);
-            model.rotateX(6);
-            scene.add(model);
-            modelRef.current = model; // Salvar referência ao modelo
-            console.log('Modelo GLTF carregado com sucesso!');
-        }, undefined, (error) => {
-            console.error('An error happened while loading the GLTF model', error);
-        });
-
-        function animate(time) {
-            renderer.render(scene, camera);
-            // Girar o modelo continuamente
-            if (modelRef.current) {
-                modelRef.current.rotation.y += 0.001; // Ajuste a velocidade de rotação conforme necessário
-                if(camera.position.y!=0.7799999999999994){
-                    camera.position.y -= 0.01; 
-                }
-            }
-        }
-
-        renderer.setAnimationLoop(animate);
-
-        const handleResize = () => {
-            const newWidth = window.innerWidth;
-            const newHeight = window.innerHeight;
-            renderer.setSize(newWidth, newHeight);
-            camera.aspect = newWidth / newHeight;
-            camera.updateProjectionMatrix();
-        };
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('resize', handleResize);
-            if (mountRef.current) {
-                mountRef.current.removeChild(renderer.domElement);
-            }
-            renderer.dispose();
-        };
-    }, []);
-
-    return (
-        <div
-            ref={mountRef}
-            style={{
-                position: 'fixed',
-                top: 0,
-                left: 0,
-                width: '100%',
-                height: '100%',
-                zIndex: 100, // Ajuste para garantir que o canvas fique no fundo
-                pointerEvents: 'none', // Impede interações com o canvas
-            }}
-        />
-    );
-};
-
-
 
 export default function Sobre() {
     return (
         <Container className="cont" fixed>
-            <ThreeScene />
 
             <motion.div
                 initial={{ opacity: 0, scale: 0.5 }}
