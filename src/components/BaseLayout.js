@@ -23,7 +23,7 @@ export default function BaseLayout() {
             <Grid item>
                 <Navbar darkMode={darkMode} handleClick={handleClick}/>
             </Grid>
-            <Grid marginBottom={50} item flexGrow={2}>
+            <Grid paddingBottom={10} item flexGrow={2}>
                <div id="inicio">
                   <Home darkMode={darkMode}/>
                </div>
