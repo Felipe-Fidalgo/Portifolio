@@ -24,18 +24,18 @@ export default function BaseLayout() {
                 <Navbar darkMode={darkMode} handleClick={handleClick}/>
             </Grid>
             <Grid paddingBottom={10} item flexGrow={2}>
-               <div id="inicio">
+               <Box id="inicio" mb={{ xs: 15, md: 25 }}>
                   <Home darkMode={darkMode}/>
-               </div>
-               <div id="portifolio">
+               </Box>
+               <Box id="portifolio" mb={{ xs: 15, md: 25 }}>
                   <Portifolio/>
-               </div>
-               <div id="sobre">
+               </Box>
+               <Box id="sobre" mb={{ xs: 15, md: 25 }}>
                   <Sobre/>
-               </div>
-               <div id="contato">
+               </Box>
+               <Box id="contato" mb={{ xs: 15, md: 25 }}>
                   <Contato darkMode={darkMode}/>
-               </div>
+               </Box>
             </Grid>
             {/*<Grid item>
                <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
